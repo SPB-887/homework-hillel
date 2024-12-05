@@ -78,7 +78,7 @@ html {
 .benefit-list {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 50px;
 }
 
 .benefit-item {
