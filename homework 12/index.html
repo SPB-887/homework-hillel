@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="payment-form-container">
+        <div class="form-header">
+            <div class="avatar">
+                <img src="/Happy Bunch Avatar.png" alt="" class="avatar">
+            </div>
+            <h2>Payment  info</h2>
+            <form action="" class="payment-form">
+                <label for="fullname">Full Name</label>
+                <div class="input-form">
+                    <input type="text" id="fullname" placeholder="Alex Smith" />
+                    <label for="card-number">Credir Cart Number</label>
+      
+                    <div class="input-card">
+                        <input type="text" id="card-number" placeholder="1234" />
+                    </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="exp-date">Exp Date</label>
+            <div class="input-row">
+                <input type="text" id="exp-date" placeholder="MM/YY" />
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <div class="input-group">
+                    <input type="text" id="cvv" placeholder="..." />
+                </div>
+            </div>
+        </div>
+        <label for="zipcode">Zip Code</label>
+        <div class="input-zip">
+            <input type="text" id="zipcode" placeholder="90210">
+        </div>
+        <button class="confirm-button">Confirm Payment</button>
+        <p class="disclaimer">You verify that this info is correct </p>
+    </form>
+    </div>
+
+    <style>
+        body{
+            background-color: #90d6e1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+     
+        }
+        .payment-form-container{
+            background-color: #ffffff;
+            width: 350px;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .payment-form{
+            text-align: left;
+      border-radius: 20px;
+        }
+        .payment-form label{
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .payment-form input{
+      display: block;
+      width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+       
+        .confirm-button{
+            background-color: #1e91a3;
+            color: #fff;
+       border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 35px;
+        }
+        .disclaimer{
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+   .payment-form input{
+    border-radius: 20px;
+    background-color: #E2E6EE;
+   }
+   .exp-date{
+    border-radius: 20px;
+    background-color: #E2E6EE;
+   }
+ 
+    </style>
+</body>
+</html>
