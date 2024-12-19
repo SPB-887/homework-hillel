@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div class="flex-body">
+<body>
+    <div class="payment-form-container">
+        <div class="form-header">
+            <div class="avatar">
+                <img src="/Happy Bunch Avatar.png" alt="" class="avatar">
+            </div>
+            <h2>Payment  info</h2>
+            <form action="" class="payment-form">
+               
+                <div class="input-form">
+                    <label for="card-number">Full name</label>
+                    <input type="text" id="fullname" placeholder="Alex Smith"/>
+      
+                    <div class="input-card">
+                        <label for="card-number">Credir Cart Number</label>
+                        <input type="text" id="card-number" placeholder="1234" />
+                    </div>
+    
+    </div>     </div>     </div>
+    <label for="exp-date">Exp Date</label>
+     <div class="form-group">
+        <div class="input-exp">
+                <input type="text" id="exp-date" placeholder="MM/YY" />
+       </div>
+             
+                    <label for="cvv">CVV</label>
+                    <div class="input-cvv">
+                    <input type="password" id="cvv" placeholder="..." />
+            </div>
+                
+                <div class="input-row">
+                    <div class="zip-input">
+                    <label for="zipcode">Zip Code</label>
+                    <input type="text" id="zipcode" placeholder="90210">
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+  
+       <div class="footer">
+        <button class="confirm-button">Confirm Payment</button>
+        <p class="disclaimer">You verify that this info is correct </p>
+    </form>
+    </div>
+    </div>
+
+    <style>
+        body{
+            background-color: #90d6e1;
+       
+        }
+        .flex-body{
+            display: flex;
+            justify-content: center;
+        }
+        .payment-form-container{
+            background-color: #ffffff;
+            width: 350px;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .payment-form{
+            text-align: left;
+      border-radius: 20px;
+        }
+        .payment-form label{
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .payment-form input{
+      display: block;
+      width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+       
+        .confirm-button{
+            background-color: #1e91a3;
+            color: #fff;
+       border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 35px;
+        }
+        .disclaimer{
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+   .payment-form input{
+    border-radius: 20px;
+    background-color: #E2E6EE;
+   }
+ 
+   .form-group{
+display: flex;
+
+gap: 10px;
+
+   }
+   .input-group{
+   display: flex;
+justify-content: space-between;
+   }
+   input{
+    border-radius: 20px;
+    background-color: #ccc;
+    display: block;
+   }
+  .cvv-input{
+    height: 15px;
+  }
+  
+    </style>
+</body>
+</html>
